@@ -29,7 +29,10 @@ CREATE TABLE `media`.`objet` (
     
     insert into objet (titre , annee, resume,  nb_exemplaire, duree, fk_idsupport, fk_idrayon )
     values 
-				('Aquaman' , '2018', "Personnage légendaire depuis 70 ans, Aquaman est le Roi des Sept Mers, régnant à contrecœur sur Atlantis. Pris en étau entre les Terriens qui détruisent constamment la mer et les habitants d'Atlantis prêts à se révolter, Aquaman doit protéger la planète tout entière…",  '5',  '143', '1', '1');
+				('Aquaman' , '2018', "Personnage légendaire depuis 70 ans, 
+                Aquaman est le Roi des Sept Mers, régnant à contrecœur sur Atlantis. 
+                Pris en étau entre les Terriens qui détruisent constamment la mer et 
+                les habitants d'Atlantis prêts à se révolter, Aquaman doit protéger la planète tout entière…",  '5',  '143', '1', '1');
                 
                 
 UPDATE `media`.`objet` SET `titre`='coffret marvel', `resume`='coffret de vos heros préférés' WHERE `idobjet`='1';

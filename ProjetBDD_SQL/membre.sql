@@ -45,4 +45,14 @@ ADD CONSTRAINT `fk_idabonnement`
     values 
 				('Zindine' , 'Zidane' , '1972-06-23' , '0613345660' , 'Etudiant', '242' , 'rue du Faubourg Saint-Antoine', '2018-12-15', '75000', '1');
                 
-                
+	INSERT INTO `media`.`membre` (`prenom`, `nom`, `date_naissance`, `n_tel`, `fonction`, `n_rue`, `rue`, `date_adhesion`, `fk_code_postal`, `fk_idabonnement`) 
+    VALUES ('Cristiano ', 'Ronaldo', '1985-02-05', '0613345660', 'Footballeur', '242', 'rue du Faubourg Saint-Antoine', '2018-12-15', '75000', '4');
+    
+	INSERT INTO `media`.`membre` (`prenom`, `nom`, `date_naissance`, `n_tel`, `fonction`, `n_rue`, `rue`, `date_adhesion`, `fk_code_postal`, `fk_idabonnement`)
+    VALUES ('kylian', 'Mbappé', '1998-12-20', '0613345660', 'Footballeur', '242', 'rue du Faubourg Saint-Antoine', '2018-12-15', '93300', '2');
+    
+	INSERT INTO `media`.`membre` (`prenom`, `nom`, `date_naissance`, `n_tel`, `fonction`, `n_rue`, `rue`, `date_adhesion`, `fk_code_postal`, `fk_idabonnement`) 
+    VALUES ('Sapeur', 'Pompier', '1985-02-05', '0613345660', 'Pompier', '242', 'rue du Faubourg Saint-Antoine', '2018-12-15', '75000', '3');
+    
+	INSERT INTO `media`.`membre` (`prenom`, `nom`, `date_naissance`, `n_tel`, `fonction`, `n_rue`, `rue`, `date_adhesion`, `fk_code_postal`, `fk_idabonnement`) 
+    VALUES ('Test', 'Testbdd', '1998-12-20', '0613345660', 'Etudiant', '242', 'rue du Faubourg Saint-Antoine', '2018-12-15', '75000', '5');
